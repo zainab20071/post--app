@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Page </title>
+</head>
+<body>
+    <h1>post page</h1>
+
+    <textarea name="" placeholder="Type Something..." id="content"></textarea><br></nr>
+    <input type="file" id="imageFile"><br><br>
+    <button id="post-btn">+ Add Post</button>
+    <h3> Recent photos</h3>
+    <div id="posts" style="display: flex; gap:20px;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@17.0.0"></script>
+    <script  src="./auth.js" type="module"></script>
+    <script src="./post.js" type="module"></script>
+</body>
+</html>
